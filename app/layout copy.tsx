@@ -2,18 +2,18 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
-  title: "Staking | Wiki Validator & Delegate",
+  title: "WeatherGPT - ChatGPT Plugin to get the weather of any given location",
   description:
-    "Staking Is a Way of Earning Rewards for Holding Cryptocurrencies.",
+    "WeatherGPT is a ChatGPT Plugin to get the weather of any given location. Built with Next.js and served from Vercel's Edge Network.",
   twitter: {
     card: "summary_large_image",
     title:
       "WeatherGPT - ChatGPT Plugin to get the weather of any given location",
     description:
-      "Staking Is a Way of Earning Rewards for Holding Cryptocurrencies.",
+      "WeatherGPT is a ChatGPT Plugin to get the weather of any given location. Built with Next.js and served from Vercel's Edge Network.",
     creator: "@steventey",
   },
-  metadataBase: new URL("https://osis.exchange"),
+  metadataBase: new URL("https://weathergpt.vercel.app"),
   themeColor: "#FFF",
 };
 
