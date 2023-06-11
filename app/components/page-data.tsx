@@ -12,7 +12,7 @@ export function PageData({ data }: { data: any }) {
           rel="noreferrer"
           className="pill"
         >
-          List Of Staking Wiki
+          List of Staking Wiki
         </a>
         <h1>Staking Wiki</h1>
         <p className="description">
