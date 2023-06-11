@@ -12,11 +12,11 @@ export function PageData({ data }: { data: any }) {
           rel="noreferrer"
           className="pill"
         >
-          List Of Staking Wiki
+          Deploy your own to Vercel
         </a>
-        <h1>Staking Wiki</h1>
+        <h1>WeatherGPT</h1>
         <p className="description">
-        Staking Is a Way of Earning Rewards for Holding Cryptocurrencies.
+          ChatGPT Plugin to get the weather of any given location
         </p>
         <Illustration />
         <div className="meta">
@@ -39,11 +39,11 @@ export function PageData({ data }: { data: any }) {
         <p>
           Generated at {date} by{" "}
           <a
-            href=""
+            href="https://vercel.com/docs/concepts/functions/edge-functions"
             target="_blank"
             rel="noreferrer"
           >
-            
+            Vercel Edge Runtime
           </a>
         </p>
       </Footer>
