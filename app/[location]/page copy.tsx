@@ -11,14 +11,14 @@ export async function generateMetadata({
   const data = await getWeatherData(params.location);
 
   return {
-    title: `${data.location.name} Staking | Wiki Validar & Delegate`,
+    title: `${data.location.name} Weather Data - WeatherGPT`,
     description:
-      "Staking Is a Way of Earning Rewards for Holding Cryptocurrencies.",
+      "WeatherGPT is a ChatGPT Plugin to get the weather of any given location. Built with Next.js and server from Vercel's Edge Network.",
     twitter: {
       card: "summary_large_image",
-      title: `${data.location.name} Staking | Wiki Validar & Delegate`,
+      title: `${data.location.name} Weather Data - WeatherGPT`,
       description:
-        "Staking Is a Way of Earning Rewards for Holding Cryptocurrencies.",
+        "WeatherGPT is a ChatGPT Plugin to get the weather of any given location. Built with Next.js and server from Vercel's Edge Network.",
       creator: "@steventey",
     },
     themeColor: "#FFF",
