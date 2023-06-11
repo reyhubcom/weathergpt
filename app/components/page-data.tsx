@@ -8,7 +8,7 @@ export function PageData({ data }: { data: any }) {
       <main>
         <a
           target="_blank"
-          href="https://chatg.pt/weather"
+          href="https://withkoji.com/@Osis/mdrg"
           rel="noreferrer"
           className="pill"
         >
